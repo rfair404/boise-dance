@@ -8,7 +8,11 @@ links:
       url: https://www.instagram.com/arthurmurrayboise/
 website: https://arthurmurrayboise.com
 phone: 208-375-5107
-
+location:
+    address: 12505 W Chinden Blvd Suite P
+    city: Boise
+    state: ID
+    zip: 83713
 styles: 
     - Waltz
     - Tango
@@ -30,9 +34,4 @@ styles:
     - Nightclub 2-Step
     - Hustle
     - Country Western
-location:
-    address: 12505 W Chinden Blvd Suite P
-    city: Boise
-    state: ID
-    zip: 83713
 ---

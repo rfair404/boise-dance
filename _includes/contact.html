@@ -2,7 +2,20 @@
 <h5>Contact Information:</h5>
 <ul>
     {%-if page.phone-%}
-    <li><a href="tel:{{ page.phone }}" title="call {{ page.name }}">{{ page.phone }}</a></li>
+    <li><a href="tel:{{ page.phone }}" title="call {{ page.name }}"><span itemprop="telephone"></span>{{ page.phone }}</span></a></li>
+    {%-endif-%}
+    {%-if page.website-%}
+    <li><a href="{{ page.website }}" title="{{ page.name }} Website">{{ page.website }}</a></li>
+    {%-endif-%}
+    {%-if page.location-%}
+    <li>
+        <div itemprop="address" itemscope itemtype=""https://schema.org/PostalAddress">
+            <span itemprop="streetAddress">{{ page.location.address }}</span>
+            <span itemprop="addressLocality">{{ page.location.city }}</span>,
+            <span itemprop="addressRegion">{{ page.location.state }}</span>
+            <span itemprop="postalCode">{{ page.location.zip }}</span>
+        </div>
+    </li>
     {%-endif-%}
 </ul>
 </section>

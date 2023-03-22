@@ -11,12 +11,12 @@ phone: 208-917-8294
 email: info@soundinmotiondance.com
 images:
   - logo: https://www.soundinmotiondance.com/wp-content/uploads/2018/12/Website-logo.jpg
+location:
+  address: 3554 S Findley Ave
+  city: Boise
+  state: ID
+  zip: 83705
 styles: 
     - Salsa
     - Bachata
-location:
-    address: 3554 S Findley Ave
-    city: Boise
-    state: ID
-    zip: 83705
 ---

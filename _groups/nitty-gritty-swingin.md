@@ -5,7 +5,7 @@ links:
       url: https://www.facebook.com/NittyGrittySwinginID/
     - name: instagram
       url: https://www.instagram.com/nittygrittyswingin/?hl=en
-    - name: tictok
+    - name: tiktok
       url: https://www.tiktok.com/@nittygrittyswingin
 styles:
   - Country Swing

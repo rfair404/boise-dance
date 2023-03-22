@@ -10,7 +10,11 @@ links:
       url: http://idahodancesport.com/
 phone: (208)345-2269
 email: tabishromario06@gmail.com
-
+location:
+    address: 600 S Orchard Street
+    city: Boise
+    state: ID
+    zip: 83705
 styles: 
     - Latin
     - Standard
@@ -19,9 +23,4 @@ styles:
     - Argentine Tango
     - Zouk
     - Kizomba
-location:
-    address: 600 S Orchard Street
-    city: Boise
-    state: ID
-    zip: 83705
 ---
