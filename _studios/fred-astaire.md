@@ -10,7 +10,11 @@ links:
       url: https://www.fredastaireboise.com/
 phone: 208-514-0440
 email: boise@fradastaire.com
-
+location:
+    address: 1511 W Main Street
+    city: Boise
+    state: ID
+    zip: 83702
 styles: 
     - Salsa
     - West Coast Swing
@@ -30,9 +34,4 @@ styles:
     - Argentine Tango
     - Quickstep
     - Viennese Waltz
-location:
-    address: 1511 W Main Street
-    city: Boise
-    state: ID
-    zip: 83702
 ---

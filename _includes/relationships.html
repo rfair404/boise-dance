@@ -1,0 +1,14 @@
+{%-assign related = site.groups | where: 'slug', relationships.group-%}
+{%-for link in related-%}
+    &nbsp;<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+{%-endfor-%}
+
+{%-assign related = site.studios | where: 'slug', relationships.studio-%}
+{%-for link in related-%}
+    &nbsp;<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+{%-endfor-%}
+
+{%-assign venues = site.venues | where: 'slug', relationships.venue-%}
+{%-for venue in venues-%}
+    &nbsp;<a href="{{ venue.url | relative_url }}">{{ venue.title }}</a>
+{%-endfor-%}

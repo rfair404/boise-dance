@@ -5,10 +5,23 @@ layout: default
 {%-include breadcrumb.html-%}
 <article>
   <h1>{{ page.title }}</h1>
+  
+  {%-if page.schedule-%}
+    {%-assign schedule = page.schedule-%}
+    {%-include schedule.html-%}
+  {%-endif-%}
+
+  {%-if page.relationships-%}
+    {%-assign relationships = page.relationships-%}
+    {%-include relationships.html-%}
+  {%-endif-%}
 
   {{ content }}
 
   {%-include contact.html-%}
-  {%-assign links = page.links-%}
-  {%-include links.html-%}
+
+  {%-if page.links-%}
+    {%-assign links = page.links-%}
+    {%-include links.html-%}
+  {%-endif-%}
 </article>
