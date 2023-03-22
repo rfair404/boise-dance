@@ -1,0 +1,10 @@
+{%-if tags-%}
+<section class="tag">
+<h5>Tags:</h5>
+<ul>
+    {%-for tag in tags-%}
+    <li>{{ tag }}</li>
+    {%-endfor-%}
+</ul>
+</section>
+{%-endif-%}

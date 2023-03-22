@@ -1,0 +1,10 @@
+{%-if links-%}
+<section class="links">
+<h5>Links:</h5>
+<ul>
+    {%-for link in links-%}
+    <li><a href="{{ link.url }}" title="{{ link.name }}">{{ link.name }}</a></li>
+    {%-endfor-%}
+</ul>
+</section>
+{%-endif-%}

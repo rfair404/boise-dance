@@ -34,12 +34,20 @@ theme: no-style-please
 # See config details here https://github.com/riggraz/no-style-please/blob/master/_config.yml
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: "anchor step" # customize text for homepage link in post layout
+  back_home_text: "Boise.Dance" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
+breadcrumb_separator: "&gt;"
 plugins:
   - jekyll-feed
 
+collections:
+  studios:
+    output: true
+    permalink: /:collection/:name
+  venus:
+    output: true
+    permalink: /:collection/:name
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
