@@ -1,5 +1,0 @@
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-{% if page.collection %}
-{{ site.breadcrumb_separator }} <a href="{{ page.collection | relative_url }}" title="{{ page.collection }}">{{ page.collection | capitalize }}</a>
-{% endif %}
-{{ site.breadcrumb_separator }} {{ page.title }}

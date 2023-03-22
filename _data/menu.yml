@@ -1,3 +1,7 @@
 entries:
-  - title: Dance Studios
-    url: ./studios
+  - title: Dance Groups
+    url: ./groups
+  - title: Dance Venues
+    url: ./venues
+  - title: Dance Events
+    url: ./events

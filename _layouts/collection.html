@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{%-include breadcrumb.html-%}
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+{%-assign collection = site[page.collection]-%}
+{%-include collection_list.html-%}

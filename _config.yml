@@ -42,12 +42,42 @@ plugins:
   - jekyll-feed
 
 collections:
-  studios:
+  groups:
     output: true
     permalink: /:collection/:name
-  venus:
+  venues:
     output: true
     permalink: /:collection/:name
+  lessons:
+    output: true
+    permalink: /:collection/:name
+  events:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  - 
+    scope:
+      type: groups
+    values:
+      layout: entity
+      breadcrumb: groups
+  - scope:
+      type: venues
+    values:
+      layout: entity
+      breadcrumb: veunes
+  - scope:
+      type: lessons
+    values:
+      layout: entity
+      breadcrumb: lessons
+  - 
+    scope:
+      type: events
+    values:
+      layout: entity
+      breadcrumb: events
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
