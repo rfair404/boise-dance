@@ -1,8 +1,8 @@
 ---
 layout: collection
-title: Boise Dance Studios
-permalink: /studios/
-collection: studios
+title: Boise Dance Groups
+permalink: /groups/
+collection: groups
 ---
 
-A comprehensive list of dance studios in the Boise area. 
+A comprehensive list of dance groups in the Boise area. 

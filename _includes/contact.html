@@ -1,0 +1,8 @@
+<section class="contact">
+<h5>Contact Information:</h5>
+<ul>
+    {%-if page.phone-%}
+    <li><a href="tel:{{ page.phone }}" title="call {{ page.name }}">{{ page.phone }}</a></li>
+    {%-endif-%}
+</ul>
+</section>

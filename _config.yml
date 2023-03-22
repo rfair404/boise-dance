@@ -45,6 +45,9 @@ collections:
   groups:
     output: true
     permalink: /:collection/:name
+  studios:
+    output: true
+    permalink: /:collection/:name
   venues:
     output: true
     permalink: /:collection/:name
@@ -61,6 +64,12 @@ defaults:
     values:
       layout: entity
       breadcrumb: groups
+  -
+    scope:
+      type: studios
+    values:
+      layout: entity
+      breadcrumb: studios
   - scope:
       type: venues
     values:
