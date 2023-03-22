@@ -12,3 +12,6 @@ schedule:
         name: Salsa & Bachata at Solid
         # https://www.facebook.com/BoiseSalsaWednesdays/
 ---
+Latin Night
+Every other Friday
+https://www.soundinmotiondance.com/workshops/
