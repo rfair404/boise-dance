@@ -1,6 +1,8 @@
 entries:
   - title: Dance Groups
     url: ./groups
+  - title: Dance Lessons
+    url: ./lessons
   - title: Dance Venues
     url: ./venues
   - title: Dance Events

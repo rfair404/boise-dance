@@ -10,4 +10,3 @@ styles:
   - Zouk
   - Swing
 ---
-Content about Ochos
