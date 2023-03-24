@@ -9,7 +9,7 @@ website: https://www.ochosboise.com/dance#tango
 styles:
     - Tango
 ---
-Join Us Every Wednesday at Ochos! 
+Join Us Every Wednesday at Ochos!
 
 Lesson: 7:30 - 8:45 PM
 Guided Practica: 8:45 - 10:00 PM

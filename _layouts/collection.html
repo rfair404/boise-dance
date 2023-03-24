@@ -9,15 +9,17 @@ layout: default
 {{ content }}
 
 {%-assign collection = site[page.collection]-%}
-<ul>
+<section>
     {%-for item in collection-%}
-        <article><a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-            <p class="description">{{ item.description | markdownify }}</p>
-            {%-assign schedule = item.schedule-%}
-            {%-include schedule.html-%}
-            {%-assign styles = item.styles-%}
-            {%-include styles.html-%}
-            <br /><a href="{{ item.url }}" title="More information about {{ item.title }}">More info</a>
-        </article>
+        <section>
+            <article><a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
+                <p class="description">{{ item.description | markdownify }}</p>
+                {%-assign schedule = item.schedule-%}
+                {%-include schedule.html-%}
+                {%-assign styles = item.styles-%}
+                {%-include styles.html-%}
+                <br /><a href="{{ item.url }}" title="More information about {{ item.title }}">More info</a>
+            </article>
+        </section>
     {%-endfor-%}
-</ul>
+</section>

@@ -1,5 +1,7 @@
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-{% if page.breadcrumb %}
-{{ site.breadcrumb_separator }} <a href="{{ page.breadcrumb | relative_url }}" title="{{ page.breadcrumb }}">{{ page.breadcrumb | capitalize }}</a>
-{% endif %}
-{{ site.breadcrumb_separator }} {{ page.title }}
+<nav>
+    <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
+    {% if page.breadcrumb %}
+    {{ site.breadcrumb_separator }} <a href="{{ page.breadcrumb | relative_url }}" title="{{ page.breadcrumb }}">{{ page.breadcrumb | capitalize }}</a>
+    {% endif %}
+    {{ site.breadcrumb_separator }} {{ page.title }}
+</nav>

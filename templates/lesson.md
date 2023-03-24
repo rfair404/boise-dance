@@ -1,11 +1,12 @@
 ---
 title: 
-venue: 
-group:
-studio:
-
-day: 
-time: 
+relationships:
+    venue: 
+    group:
+    studio:
+schedule:
+    day: 
+    time: 
 order: 
 
 website: 
