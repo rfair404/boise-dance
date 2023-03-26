@@ -1,8 +1,7 @@
 ---
 title: Sunday Evening Tango at Solid Grill & Bar
-relationships:
-    venue: solid
-    group: tango-boise
+venues: solid
+groups: tango-boise
 schedule:
   day: Sunday
   time: 7:30 PM

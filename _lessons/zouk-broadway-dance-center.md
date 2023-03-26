@@ -1,13 +1,11 @@
 ---
 title: All Levels Zouk
-relationships:
-    venue: 
-    group: zouk-boise
-    studio: broadway-dance-center
+groups: zouk-boise
+studios: broadway-dance-and-event-center
 schedule:
     day: Thursday
     time: 7:30 PM
-order: 510
+order: 500
 
 website: https://www.eventcreate.com/e/zoukboise/
 styles:

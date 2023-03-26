@@ -1,10 +1,10 @@
 ---
 title: Boise Salsa Wednesdays
-venue: solid
-group: idaho-dancesport
-
-day: Wednesday 
-time: 
+venues: solid
+groups: idaho-dancesport
+schedule:
+  day: Wednesday 
+  time: 8:15 PM
 order: 410
 
 website: https://www.facebook.com/BoiseSalsaWednesdays/

@@ -1,8 +1,9 @@
 ---
 title: Beginner Salsa & Bachata Fridays at Ochos
-venue: ochos
-day: Friday
-time: 8:00
+venues: ochos
+schedule:
+    day: Friday
+    time: 8:00 PM
 order: 600
 
 website: https://www.ochosboise.com/dance#salsa
@@ -12,9 +13,9 @@ styles:
 ---
 8 - 9 PM: Beginner Salsa/Bachata Lesson + Social Dancing from 9 PM - 1 AM
 
-    EARLYBIRD online price: $12.50 per person or $24.00 per couple.  
-    At-the-Door Pricing: $15 per person  
+EARLYBIRD online price: $12.50 per person or $24.00 per couple.  
+At-the-Door Pricing: $15 per person  
 
 9 PM - 1 AM: Social Dancing ONLY (lesson not included) 
 
-    At-the-Door Pricing: $10 per person  
+At-the-Door Pricing: $10 per person  

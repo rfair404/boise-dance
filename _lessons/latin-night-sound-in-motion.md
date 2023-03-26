@@ -1,7 +1,6 @@
 ---
 title: Latin Night Every other Friday
-relationships:
-    studio: sound-in-motion
+studios: sound-in-motion
 schedule:
     day: Every other Friday
     time: 

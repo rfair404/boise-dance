@@ -10,4 +10,6 @@ links:
 styles:
   - Country Swing
   - Line Dance
+email: NittyGrittySwinginid@gmail.com
+phone: 208-805-8336
 ---

@@ -1,12 +1,11 @@
 ---
 title: "Throw Down @ Hannah’s: Country Swing and Line Dance"
-relationships:
-    venue: humpin-hannahs
-    group: heirloom-dance
+venues: humpin-hannahs
+groups: heirloom-dance
 schedule:
     day: Thursday
     time: 8:00 PM
-order: 500
+order: 510
 
 website: https://heirloomdancestudio.com/class-schedule/
 styles:

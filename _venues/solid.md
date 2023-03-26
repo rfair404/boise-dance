@@ -1,8 +1,7 @@
 ---
 title: Solid Grill & Bar
 links:
-    - name: website
-      url: https://www.solidboise.com/
+website: https://www.solidboise.com/
 styles: 
   - Salsa
   - Bachata

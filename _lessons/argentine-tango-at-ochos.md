@@ -1,8 +1,9 @@
 ---
 title: Argentine Tango Wednesday at Ochos
 venue: ochos
-day: Wednesday
-time: 7:30
+schedule:
+    day: Wednesday
+    time: 7:30 PM
 order: 400
 
 website: https://www.ochosboise.com/dance#tango

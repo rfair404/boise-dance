@@ -1,12 +1,11 @@
 ---
 title: West Coast Swing Night
-relationships:
-    venue: ochos
-    group: heirloom-dance
+venues: ochos
+groups: heirloom-dance
 schedule:
     day: Tuesday
     time: 8:00 PM
-order: 
+order: 300
 
 website: http://heirloomdancestudio.com/class-schedule/
 styles:

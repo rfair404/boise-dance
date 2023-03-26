@@ -11,10 +11,7 @@ layout: default
     {%-include schedule.html-%}
   {%-endif-%}
 
-  {%-if page.relationships-%}
-    {%-assign relationships = page.relationships-%}
-    {%-include relationships.html-%}
-  {%-endif-%}
+  {%-include relationships.html-%}
 
   {{ content }}
 

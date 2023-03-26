@@ -1,8 +1,7 @@
 ---
 title: Vintage Lindy Hop Swing at Solid
-relationships:
-    venue: solid
-    group: heirloom-dance
+venues: solid
+groups: heirloom-dance
 schedule:
     day: Monday
     time: 8:00 PM

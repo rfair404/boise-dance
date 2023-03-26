@@ -1,14 +1,40 @@
-{%-assign related = site.groups | where: 'slug', relationships.group-%}
+{%-assign related = site.groups | where: 'slug', page.groups-%}
+{%-if related.size > 0-%}
+<h5>Groups:</h5>
+<ul>
 {%-for link in related-%}
-    &nbsp;<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
 {%-endfor-%}
+</ul>
+{%-endif-%}
 
-{%-assign related = site.studios | where: 'slug', relationships.studio-%}
+
+{%-assign related = site.studios | where: 'slug', page.studios-%}
+{%-if related.size > 0-%}
+<h5>Studios:</h5>
+<ul>
 {%-for link in related-%}
-    &nbsp;<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
 {%-endfor-%}
+</ul>
+{%-endif-%}
 
-{%-assign venues = site.venues | where: 'slug', relationships.venue-%}
-{%-for venue in venues-%}
-    &nbsp;<a href="{{ venue.url | relative_url }}">{{ venue.title }}</a>
+{%-assign related = site.venues | where: 'slug', page.venues-%}
+{%-if related.size > 0-%}
+<h5>Venues:</h5>
+<ul>
+{%-for link in related-%}
+    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
 {%-endfor-%}
+</ul>
+{%-endif-%}
+
+{%-assign related = site.lessons | where: page.collection, page.slug-%}
+{%-if related.size > 0-%}
+    <h5>Lessons:</h5>
+    <ul>
+    {%-for link in related-%}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+    {%-endfor-%}
+    </ul>
+{%-endif-%}

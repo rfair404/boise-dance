@@ -10,4 +10,7 @@ styles:
     - Ballroom 
     - Latin 
     - Swing
+lessons: 
+  - west-coast-swing-solid
+  - vintage-lindy-hop-at-solid
 ---
