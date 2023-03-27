@@ -1,11 +1,11 @@
 ---
-title: "Swingin' Thursdays"
-venues: indian-creek-steakhouse
+title: Swig n Swing
+venues: cowgirls-kuna
 groups: dirt-road-dancing
 schedule:
-    day: Thursday
-    time: 7:30 PM
-order: 510
+    day: Saturday 
+    time: 8:00 PM
+order: 710
 
 website: 
 styles:

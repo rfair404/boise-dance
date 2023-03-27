@@ -1,6 +1,6 @@
 ---
 title: Argentine Tango Wednesday at Ochos
-venue: ochos
+venues: ochos
 schedule:
     day: Wednesday
     time: 7:30 PM

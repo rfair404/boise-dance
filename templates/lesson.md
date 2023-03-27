@@ -1,9 +1,8 @@
 ---
 title: 
-relationships:
-    venue: 
-    group:
-    studio:
+venues: 
+groups:
+studios:
 schedule:
     day: 
     time: 

@@ -12,7 +12,7 @@ layout: default
 <section>
     {%-for item in collection-%}
         <section>
-            <article><a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
+            <article><a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>
                 <p class="description">{{ item.description | markdownify }}</p>
                 {%-assign schedule = item.schedule-%}
                 {%-include schedule.html-%}

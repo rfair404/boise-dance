@@ -1,6 +1,6 @@
 ---
 title: Footloose Friday
-venues: cowgirls
+venues: cowgirls-kuna
 groups: dirt-road-dancing
 schedule:
     day: Friday

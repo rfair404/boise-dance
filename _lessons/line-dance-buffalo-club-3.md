@@ -1,11 +1,11 @@
 ---
-title: Tuesday Line Dance Lesson
+title: Saturday Line Dance Lesson
 venues: the-buffalo-club
 studios: gone-country-dancing
 schedule:
-    day: Thursday
+    day: Saturday
     time: 7:30 PM
-order: 310
+order: 720
 
 website: 
 styles:

@@ -1,13 +1,13 @@
 ---
-title: Tuesday Line Dance Lesson
+title: Friday Country Swing Lesson
 venues: the-buffalo-club
 studios: gone-country-dancing
 schedule:
-    day: Thursday
+    day: Friday
     time: 7:30 PM
-order: 310
+order: 640
 
 website: 
 styles:
-    - Line Dance
+    - Country Swing
 ---
