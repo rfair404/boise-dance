@@ -6,8 +6,7 @@ links:
       url: 
     - name: instagram
       url: 
-    - name: website
-      url: 
+website: 
 phone: 
 email: 
 location:

@@ -3,7 +3,7 @@ title: "Humpin' Hannah's"
 links:
 website: http://humpinhannahs.com/
 styles: 
-  - 
+  - Country Swing
 location:
   address: 621 Main Street
   city: Boise
