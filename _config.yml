@@ -75,7 +75,7 @@ defaults:
       type: venues
     values:
       layout: entity
-      breadcrumb: veunes
+      breadcrumb: venues
   - scope:
       type: lessons
     values:
